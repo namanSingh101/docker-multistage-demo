@@ -24,7 +24,7 @@ If you ship those into production, your image:
 Multi-stage builds solve this by separating build and runtime into distinct layers.
 
 ## Project Structure
-    .
+.
 └── Django-Multi_stage/
     ├── MultistageDemo/
     │   └── Project code
