@@ -23,16 +23,20 @@ If you ship those into production, your image:
 - Increases attack surface
 Multi-stage builds solve this by separating build and runtime into distinct layers.
 
-## Project Structure
-.
-└── Django-Multi_stage/
-    ├── MultistageDemo/
-    │   └── Project code
-    ├── withoutMS /
-    │   └── Dockerfile (without MultiSatge)
-    ├── Dockerfile (using multistage)
-    ├── manage.py
-    └── requirements.txt
+---
+
+## 📂 Project Structure
+```bash
+Django-Multi_stage/
+├── MultistageDemo/         # Django project code
+├── withoutMS/              # Dockerfile without multi-stage
+│   └── Dockerfile
+├── Dockerfile              # Dockerfile using multi-stage
+├── manage.py
+└── requirements.txt
+```
+
+---
 
 ```python
 #without multistage
